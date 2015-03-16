@@ -1,3 +1,4 @@
+@import "variables";
 
 .unit-tabs {
 	li {
@@ -7,7 +8,7 @@
 
 .container.manage-units {
 	padding-top: 0px !important;
-	
+
 
 	.create-unit-button-container {
 		height: 130px;
@@ -35,7 +36,7 @@
 
 	.delete-unit {
 		cursor: pointer;
-		color: #137779;
+		color: $linkColor;
 		text-align:right;
 		padding-right: 30px;
 	}
@@ -51,7 +52,7 @@
 	  padding: 8px 12px;
 	  width: 100% !important;
 	  border-top-left-radius: 5px;
-	  
+
 	  border-left: 1px solid #cecece;
 	  border-top-right-radius: 5px;
 	  border-right: 1px solid #cecece;
@@ -102,14 +103,14 @@
 	 				height: 100%;
 	 			}
 	 		}
-	 		
+
 
 	 	}
-	 	
+
 
 	}
 
-	
+
 
 
 
@@ -126,7 +127,7 @@
 .manage-classes table a {
   color: #308183;
 }
-.manage-classes 
+.manage-classes
 
 .manage-classes table tbody tr {
   background: #f7f5f5;
